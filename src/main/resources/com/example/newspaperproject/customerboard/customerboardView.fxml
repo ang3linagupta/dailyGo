@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="442.0" prefWidth="734.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.newspaperproject.customerboard.customerboardController">
+   <children>
+      <Label layoutX="283.0" layoutY="25.0" text="CUSTOMER BOARD">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f1f4f7" height="68.0" layoutX="14.0" layoutY="63.0" stroke="BLACK" strokeType="INSIDE" width="214.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f1f4f7" height="68.0" layoutX="490.0" layoutY="63.0" stroke="BLACK" strokeType="INSIDE" width="222.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f1f4f7" height="68.0" layoutX="251.0" layoutY="63.0" stroke="BLACK" strokeType="INSIDE" width="214.0" />
+      <ComboBox fx:id="selcomboarea" layoutX="46.0" layoutY="97.0" prefWidth="150.0" />
+      <ComboBox fx:id="selcombohawker" layoutX="526.0" layoutY="97.0" prefWidth="150.0" />
+      <ComboBox fx:id="selcombopaper" layoutX="282.0" layoutY="97.0" prefWidth="150.0" />
+      <Label layoutX="107.0" layoutY="73.0" text="AREAS">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="571.0" layoutY="74.0" text="HAWKERS">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="336.0" layoutY="74.0" text="PAPERS">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Button layoutX="286.0" layoutY="156.0" mnemonicParsing="false" onAction="#doshowdata" prefHeight="30.0" prefWidth="142.0" text="FETCH RECORDS">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <TableView fx:id="tblviewcustomer" layoutX="14.0" layoutY="198.0" prefHeight="216.0" prefWidth="706.0" />
+   </children>
+</AnchorPane>
