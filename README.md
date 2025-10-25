@@ -72,8 +72,7 @@ The project is scalable and allows multiple agencies to operate independently wi
 
 ### 7. Billing Dashboard
 - **Status Filters:** View *Paid* and *Unpaid* bills.  
-- **Date Range Filter:** Filter results between selected dates.  
-- **TableView Display:** Lists all relevant records with amounts.  
+- **Date Range Filter:** Filter results between selected dates and list all relevant records.
 - **Total Calculation:** Automatically sums collected or pending totals.
 - **Export to Excel (CSV):** Allows exporting billing records to a CSV file with a custom save location and filename.  
 - **Quick Access:** The exported file opens automatically after saving, simplifying data backup, reporting, and sharing.
