@@ -3,7 +3,7 @@
 **dailyGo** is a Java-based desktop application developed to automate and digitize the operations of newspaper agencies.  
 It streamlines daily workflows such as customer enrollment, hawker management, area allocation, billing, and collection tracking.  
 
-By replacing manual record-keeping with a centralized and user-friendly interface, **dailyGo** ensures accuracy, efficiency, and transparency in managing daily newspaper distribution and billing activities.  
+By replacing manual record-keeping with a centralized and user-friendly interface, dailyGo ensures accuracy, efficiency, and transparency in managing daily newspaper distribution and billing activities.  
 The project is scalable and allows multiple agencies to operate independently with secure login access and cloud data management.
 
 ---
