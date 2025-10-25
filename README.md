@@ -8,7 +8,7 @@ The project is scalable and allows multiple agencies to operate independently wi
 
 ---
 
-## ⚙️ Technologies Used
+## Technologies Used
 
 1. **Frontend:** JavaFX (FXML, SceneBuilder)  
 2. **Backend:** Core Java (JDBC, MVC Architecture)  
@@ -29,7 +29,7 @@ The project is scalable and allows multiple agencies to operate independently wi
 ---
 
 ### 2. Paper Master
-**Newspaper Entry:** Allows adding new newspapers directly into the system. 
+- **Newspaper Entry:** Allows adding new newspapers directly into the system. 
 - **Paper Management:** Add, update, delete, and search newspaper records.  
 - **Details Tracked:** Paper name, language, and price.  
 - **Billing Integration:** Automatically fetches newspaper prices during billing.
